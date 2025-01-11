@@ -252,7 +252,7 @@ background-color: rgb(19, 49, 19);
 .Lorem-desription-main{
 width: 1280px;
 height: 256px;
- background-image:url("/image/quote-bg.png");
+ background-image:url("../image/quote-bg.png");
 mix-blend-mode: saturation;
 background-size: 100px;
  background-repeat: no-repeat;
@@ -385,7 +385,7 @@ width: 60%;
 text-align: center;
 border: none;
 border-bottom: 0px solid rgba(14, 14, 14, 0.15);
-background: rgb(246, 240, 240);
+background: rgb(244, 242, 242);
 }
 .Done-Now{
 color: rgb(250, 234, 234);
