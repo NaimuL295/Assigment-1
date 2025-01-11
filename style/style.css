@@ -8,8 +8,12 @@
 }
 
 /*  share   */
-
-
+.button:hover{
+    background-color: rgb(19, 49, 19);
+     color: azure;
+     background-color: none;
+    }
+/*  */
 nav{
     height: 100px;
 }
@@ -36,20 +40,18 @@ font-weight: 700;
     color: rgb(0, 106, 80);
 }
 
-
-/*  main-hero-container */.main-hero-container{
+/*  main-hero-container */
+.main-hero-container{
     width: 1280px;
     height: 560px;
     margin:  0 auto;
     background: rgb(198, 228, 214);
     border-radius: 24px;
-
 }
 .hero-container{
     display: flex;
     align-items: center;
     border-radius: 24px; 
-    
     padding: 40px 60px 60px 40px;
 }
 
@@ -66,7 +68,6 @@ font-weight: 500;
 .hero-title{
     font-size:  56px;
     color: rgb(14, 14, 14);
-   
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
@@ -74,13 +75,13 @@ font-weight: 500;
   
 }
 .hero-text-btn{
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 8px;
+     font-size: 18px;
+     font-weight: 600;
+     border-radius: 8px;
      background: rgb(0, 106, 80);
      padding: 17px 34px 17px 34px;
-color: white;
-border: none;
+     border: none;
+     color: #ffffff;
 }
 /* section Bangladesh 2.0*/
 .Pillars-container{
@@ -89,8 +90,8 @@ border: none;
     margin: 0 auto;
 } 
 .pillar-text{
-    color: rgb(14, 14, 14);
-    font-size: 40px;
+color: rgb(14, 14, 14);
+ font-size: 40px;
 font-weight: 700;
 line-height: 48px;
 }
@@ -98,7 +99,7 @@ line-height: 48px;
 
 
 .Pillar-item{
-    display: flex;
+display: flex;
  gap: 24px;
 }
 .Pillars-items{
@@ -156,8 +157,7 @@ margin:0  auto;
    
 }
 .vision-title-desription{
-    color: rgba(14, 14, 14, 0.7);
-
+color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -186,7 +186,6 @@ letter-spacing: 0%;
     height: 325px;
     box-sizing: border-box;
     border-radius: 16px;
-
     background: rgb(246, 224, 224);
     padding: 32px;
 }
@@ -199,7 +198,7 @@ letter-spacing: 0%;
 
 }
 .Vision-title{
-    color: rgba(14, 14, 14, 0.7);
+color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
 font-size: 16px;
 font-weight: 400;
@@ -208,17 +207,17 @@ letter-spacing: 0%;
 }
 
 .vision-title-btn-one{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19px;
-    padding: 11px 20px 11px 20px;
-    border-radius: 8px;
+ font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
 cursor: pointer;
 background: rgb(84, 144, 245);
 border: none;
 }
 .vision-title-btn-two{
-    color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 font-size: 16px;
 font-weight: 600;
 line-height: 19px;
@@ -232,8 +231,7 @@ background: rgb(9, 161, 92);
 border: none;
 }
 .vision-title-btn-three {
-  color: rgb(255, 255, 255);
-
+color: rgb(255, 255, 255);
 font-size: 16px;
 font-weight: 600;
 line-height: 19px;    
@@ -244,17 +242,10 @@ background: rgb(255, 194, 57);
 border: none;
 }
 
-.button:hover{
-background-color: rgb(19, 49, 19);
- color: azure;
- background-color: none;
-
-}
 .Lorem-desription-main{
 width: 1280px;
 height: 256px;
-padding: 10px 10px 10px 10px;
-
+margin: 50px auto;
 }
 
 
@@ -274,23 +265,22 @@ line-height: 24px;
 .Lorem-desription{
 background-image:url("../image/quote-bg.png");
  mix-blend-mode: saturation;
-background-size: 90px;
+background-origin: content-box;
 background-repeat: no-repeat;
-background-position: left top;
+background-position: top left;
 background-color: rgb(252, 249, 249);
 border-radius: 16px;
 border: none;
-padding: 18px 14px 18px 14px;
 margin: 50px auto;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
  border: none;
+ padding: 20px 20px 20px 20px;
+
 }
 .Recent-News{
     margin-top: 100px  0;
 }
-
-
 /* satelite-container-box-main */
 .satelite-container-box-main{
     width: 1280px;
@@ -336,9 +326,6 @@ padding: 13px 26px 13px 26px;
 border: none;
 }
 /* margine-div   */
-
-
-
 .margine-div{
     margin-top: 50px;
 }
@@ -359,9 +346,7 @@ border: none;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     border: none;
-   
     gap: 24px;
-    
 }
 .btn2-desription:hover{
  background: rgb(198, 228, 214);
