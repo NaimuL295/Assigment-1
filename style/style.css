@@ -249,7 +249,7 @@ background-color: rgb(19, 49, 19);
 .Lorem-desription-main{
 width: 1280px;
 height: 256px;
- background-image:url("/assets/quote-bg.png");
+ background-image:url("./image/quote-bg.png");
 mix-blend-mode: saturation;
 background-size: 100px;
  background-repeat: no-repeat;
@@ -309,7 +309,7 @@ background: rgb(238, 236, 236);
 .Al-jazeera{
     width: 134px;
 height: 40px;
-    background-image: url("/assets/al-jazeera.png");
+    background-image: url("./image/al-jazeera.png");
 }
 .Recent-News{
     width: 1280px;
