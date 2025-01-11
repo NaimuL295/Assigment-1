@@ -256,6 +256,7 @@ height: 256px;
 mix-blend-mode: saturation;
 background-size: 100px;
  background-repeat: no-repeat;
+ background-position: left top;
 background-color: rgb(252, 249, 249);
 border-radius: 16px;
 border: none;
