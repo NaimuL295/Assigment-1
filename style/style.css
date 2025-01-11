@@ -80,6 +80,7 @@ font-weight: 500;
      background: rgb(0, 106, 80);
      padding: 17px 34px 17px 34px;
 color: white;
+border: none;
 }
 /* section Bangladesh 2.0*/
 .Pillars-container{
@@ -252,14 +253,8 @@ background-color: rgb(19, 49, 19);
 .Lorem-desription-main{
 width: 1280px;
 height: 256px;
- background-image:url("../image/quote-bg.png");
-mix-blend-mode: saturation;
-background-size: 100px;
- background-repeat: no-repeat;
- background-position: left top;
-background-color: rgb(252, 249, 249);
-border-radius: 16px;
-border: none;
+padding: 10px 10px 10px 10px;
+
 }
 
 
@@ -277,6 +272,19 @@ line-height: 24px;
 }
 
 .Lorem-desription{
+    background-image:url("../image/quote-bg.png");
+    mix-blend-mode: saturation;
+    background-size: 90px;
+     background-repeat: no-repeat;
+     background-position: left top;
+    background-color: rgb(252, 249, 249);
+    border-radius: 16px;
+    border: none;
+
+/*  */
+
+
+
     padding: 18px 14px 18px 14px;
 margin: 50px auto;
 
