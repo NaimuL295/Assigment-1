@@ -272,27 +272,19 @@ line-height: 24px;
 }
 
 .Lorem-desription{
-    background-image:url("../image/quote-bg.png");
-    mix-blend-mode: saturation;
-    background-size: 90px;
-     background-repeat: no-repeat;
-     background-position: left top;
-    background-color: rgb(252, 249, 249);
-    border-radius: 16px;
-    border: none;
-
-/*  */
-
-
-
-    padding: 18px 14px 18px 14px;
+background-image:url("../image/quote-bg.png");
+ mix-blend-mode: saturation;
+background-size: 90px;
+background-repeat: no-repeat;
+background-position: left top;
+background-color: rgb(252, 249, 249);
+border-radius: 16px;
+border: none;
+padding: 18px 14px 18px 14px;
 margin: 50px auto;
-
- border: 1px solid rgba(14, 14, 14, 0.15);
+border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
  border: none;
-
-
 }
 .Recent-News{
     margin-top: 100px  0;
@@ -441,10 +433,16 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: center;
 }
-.email-input>input[ type="email"]  {
-padding: 18px 40px 18px 40px;
+.spam{
+ font-size: 16px;
+font-weight: 400;
+line-height: 19px;   
+}
+.email-input>input[type="email"]  {
+    display: inline-block;
+width: 70%;
+ padding: 18px 20px 18px 20px; 
 background: rgb(255, 255, 255);
-
 font-size: 16px;
 font-weight: 400;
 line-height: 19px;
